@@ -1,4 +1,4 @@
-```markdown
+
 # Interface Requirements
 
 ## User Interface (UI):
@@ -88,4 +88,4 @@
 
 - Frontend and backend code should be optimized for performance to minimize load times and improve overall responsiveness.
 - Caching mechanisms and content delivery networks (CDNs) should be utilized to reduce latency and improve content delivery speed.
-```
+
