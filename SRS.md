@@ -1,6 +1,9 @@
-## Software Requirements Specification (SRS) for Paws and Claws Community Hub
+# Software Requirements Specification (SRS) for Paws and Claws Community Hub
+<br>
 
 # Introduction
+
+<br>
 
 The \"Paws and Claws Community Hub\" is envisioned as a groundbreaking
 digital platform designed to revolutionize the landscape of pet care and
@@ -26,6 +29,8 @@ serves as a comprehensive guide, articulating the project\'s vision,
 objectives, scope, and key requirements, laying the groundwork for the
 development of a transformative platform that aspires to make a lasting
 impact on the world of pet care, advocacy, and community engagement.
+
+<br>
 
 # General Description
 
@@ -120,6 +125,8 @@ constraints, and dependencies. Further sections of this SRS document
 will delve into more detailed requirements, specifications, and
 guidelines to guide the development and implementation of this
 innovative digital platform.
+
+<br><br>
 
 # Functional Requirements
 
@@ -255,7 +262,9 @@ integrated social media sharing tools.
 events, manage registrations, and communicate with attendees
 effectively.
 
-**Interface Requirements:**
+<br> <br>
+
+# Interface Requirements
 
 **User Interface (UI):**
 
@@ -502,4 +511,5 @@ utilized to reduce latency and improve content delivery speed.
 
 - Frontend and backend code should be optimized for performance to minimize load times and improve overall responsiveness.
 - Caching mechanisms and content delivery networks (CDNs) should be utilized to reduce latency and improve content delivery speed.
+
 
