@@ -31,5 +31,3 @@
 ## Governance and Communication
 - **Reporting and Accountability:** Detailed reporting lines are established so that each level of management and operation understands their reporting responsibilities and schedules.
 - **Communication Protocols:** Regular meetings, as well as as-needed strategic sessions, are held to ensure open lines of communication across all levels of stakeholders. This includes annual general meetings for major stakeholders and more frequent operational meetings for day-to-day management.
-
-
