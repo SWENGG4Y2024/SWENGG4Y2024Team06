@@ -1,0 +1,38 @@
+@startuml
+
+' Components
+database Database as "Database"
+rectangle "Frontend" as Frontend {
+    rectangle "Web Server" as WebServer
+    rectangle "CDN" as CDN
+    rectangle "API" as API
+}
+rectangle "Pet Owner" as PetOwner
+rectangle "Community" as Community
+rectangle "Events" as Events
+
+' Relationships
+PetOwner -- WebServer : Uses
+WebServer -- CDN : Delivers Content
+WebServer -- API : Integrates
+WebServer -- Events : Manages Events
+WebServer -- Community : Engages
+
+' Arrows
+Database -- CDN : Syncs
+Database -- API : Syncs
+Database -- Events : Stores Data
+
+' Legend
+legend
+    Component Legend
+    Pet Owner: Pet Owner using the platform
+    Community: Community members interacting with the platform
+    Events: Event management and coordination
+    Frontend: Web server serving the user interface
+    Database: Database storing platform data
+    CDN: Content delivery network for optimized content delivery
+    API: External APIs integrated into the platform
+end legend
+
+@enduml

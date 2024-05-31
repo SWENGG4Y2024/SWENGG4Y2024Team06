@@ -1,0 +1,19 @@
+@startuml
+
+!define WebContainer(x) component "Web Container\n{x}\n\nAngular/React/Vue" as x
+
+!define BackendContainer(x) component "Backend Container\n{x}\n\nNode.js/Python" as x
+
+!define DatabaseContainer(x) component "Database Container\n{x}\n\nMySQL/PostgreSQL/MongoDB" as x
+
+WebContainer(WebServer)
+BackendContainer(API)
+DatabaseContainer(Database)
+
+actor "Pet Owner" as PetOwner
+
+WebServer -- API : Sends HTTP requests
+API -- Database : Performs database operations
+PetOwner --> WebServer : Interacts with UI
+
+@enduml
