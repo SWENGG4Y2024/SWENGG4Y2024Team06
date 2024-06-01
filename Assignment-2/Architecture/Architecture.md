@@ -38,36 +38,8 @@ The platform is deployed using a cloud-native approach, leveraging Infrastructur
 
 ### High-Level Deployment Diagram
 
-+---------------------------------+
-|                                 |
-|          Cloud Provider         |
-|                                 |
-+----------+------------+---------+
-           |            |
-           |            |
-+----------v------------v---------+
-|                                 |
-|         Load Balancer           |
-|                                 |
-+----------+------------+---------+
-           |            |
-+----------v------------v---------+
-|                                 |
-|       Web Application           |
-|      (Angular/React/Vue)        |
-+----------+------------+---------+
-           |            |
-+----------v------------v---------+
-|                                 |
-|       Backend Services          |
-|      (Node.js/Python)           |
-+----------+------------+---------+
-           |            |
-+----------v------------v---------+
-|                                 |
-|            Database             |
-|     (MySQL/PostgreSQL/MongoDB)  |
-+---------------------------------+
+<img src="https://github.com/SWENGG4Y2024/SWENGG4Y2024Team06/assets/122434196/c3a0d4ac-2c62-432b-97bd-93e93ea09e9d" width="600" height="600">
+
 
 ## Scalability and Resilience
 
