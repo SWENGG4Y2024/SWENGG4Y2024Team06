@@ -37,7 +37,7 @@ their pets, the platform aims to amalgamate a rich array of services,
 resources, and community-centric features into a unified and accessible
 digital environment.
 
-**1.1 Product Perspective**
+### 1.1 Product Perspective
 
 The \"Paws and Claws Community Hub\" is conceived as a standalone
 web-based platform, built to operate independently while offering
@@ -46,7 +46,7 @@ applicable. As a Pet Owner - centric platform, it prioritizes ease of
 navigation, intuitive design, and responsive functionality to ensure an
 optimal customer experience across various devices and screen sizes.
 
-**1.2 Product Features**
+### 1.2 Product Features
 
 Key features of the platform include:
 
@@ -72,7 +72,7 @@ pet care, health, nutrition, training, and responsible pet ownership.
 and virtual pet-related events, workshops, seminars, and meet-ups to
 promote community engagement and participation.
 
-**1.3 User Classes and Characteristics**
+### 1.3 User Classes and Characteristics
 
 The platform is designed to cater to a diverse user base, including:
 
@@ -88,7 +88,7 @@ involved in pet rescue, adoption, and welfare initiatives.
 - Veterinary Professionals: Veterinarians, veterinary technicians, and
 other healthcare professionals in the pet care industry.
 
-**1.4 Operating Environment**
+### 1.4 Operating Environment
 
 The \"Paws and Claws Community Hub\" will operate as a web-based
 platform, accessible via standard web browsers on desktop, tablet, and
@@ -96,7 +96,7 @@ mobile devices. The platform will leverage cloud-based infrastructure to
 ensure scalability, reliability, and high availability, accommodating
 varying levels of Pet owners traffic and data storage requirements.
 
-**1.5 Design and Implementation Constraint**
+### 1.5 Design and Implementation Constraint
 
 The platform will adhere to industry best practices and standards for
 web development, ensuring compatibility, security, and performance
@@ -104,7 +104,7 @@ optimization. Additionally, the design and implementation will
 prioritize accessibility, ensuring the platform is usable and navigable
 for Pet owners with disabilities.
 
-**1.6 Assumptions and Dependencies**
+### 1.6 Assumptions and Dependencies**
 
 It is assumed that Pet owners will have access to a stable internet
 connection and standard web browsing capabilities. Dependencies may
@@ -120,6 +120,7 @@ constraints, and dependencies. Further sections of this SRS document
 will delve into more detailed requirements, specifications, and
 guidelines to guide the development and implementation of this
 innovative digital platform.
+<br><br>
 
 # Functional Requirements
 
@@ -129,7 +130,7 @@ that the platform must implement to achieve its objectives. Below is an
 expanded and more descriptive outline of the functional requirements
 categorized by feature set.
 
-**2.1 Pet Adoption Marketplace**
+### 2.1 Pet Adoption Marketplace
 
 - The system shall offer a Pet Owner-friendly registration process,
 guiding Pet owners through the creation of a new account using their
@@ -167,7 +168,7 @@ and finalize adoption arrangements.
 throughout the adoption process, including information on adoption
 requirements, fees, and legal considerations.
 
-**2.2 Veterinary Services Directory**
+### 2.2 Veterinary Services Directory
 
 - The system shall maintain an extensive directory of veterinary
 clinics, hospitals, and services, presenting detailed and up-to-date
@@ -193,7 +194,7 @@ Pet owners ratings.
 - Pet owners shall have the option to compare multiple service
 providers side by side, facilitating informed decision-making.
 
-**2.3 Community Forums**
+### 2.3 Community Forums
 
 - The system shall host an array of discussion threads covering diverse
 topics related to pet care, training, behaviour, health, nutrition, and
@@ -219,7 +220,7 @@ activity, contributions, and interests within the community.
 Pet owners to communicate privately with other members, share resources,
 and seek personalized advice.
 
-**2.4 Educational Resource Center**
+### 2.4 Educational Resource Center
 
 - The system shall enable administrators to curate and manage a diverse
 range of educational content, including articles, guides, tutorials,
@@ -237,7 +238,7 @@ educational content based on keywords, categories, and scholar ratings.
 favourite resources, enhancing accessibility and promoting knowledge
 sharing within the community.
 
-**2.5 Interactive Event Calendar**
+### 2.5 Interactive Event Calendar
 
 - The system shall maintain a comprehensive and up-to-date calendar of
 local and virtual pet-related events, workshops, seminars, meet-ups, and
@@ -255,9 +256,91 @@ integrated social media sharing tools.
 events, manage registrations, and communicate with attendees
 effectively.
 
-# Interface Requirements
+### 2.6 Pet Health Records
 
-## User Interface (UI)
+- The system shall provide Pet owners with the ability to create and manage 
+digital health records for their pets, including vaccination history, medical
+treatments, and appointments.
+
+- Pet owners shall be able to upload and store relevant documents such
+as vet reports, lab results, and prescription details securely within
+the platform.
+
+- The system shall send automated reminders and notifications to Pet
+owners for upcoming vaccinations, check-ups, and medical appointments
+based on stored health records.
+
+### 2.7 Pet Insurance Integration
+
+- The platform shall integrate with third-party pet insurance providers
+to offer Pet owners convenient access to insurance plans, coverage options,
+and policy management tools.
+
+- Pet owners shall be able to compare and purchase pet insurance policies
+directly through the platform, with seamless integration for premium
+payments and claims processing.
+
+- The system shall provide Pet owners with personalized recommendations
+ for suitable insurance plans based on their pet's age, breed, health 
+history, and coverage needs.
+
+### 2.8 Lost and Found Pets Registry
+
+- The system shall feature a dedicated registry for lost and found pets,
+allowing Pet owners to report lost pets and search for pets reported as 
+found within their local area.
+
+- Pet owners shall have the ability to upload photos, descriptions, and
+contact information for their lost pets, facilitating community-driven
+efforts to reunite lost pets with their owners.
+
+- The platform shall send alerts and notifications to Pet owners and 
+local community members about reported lost or found pets matching 
+specific criteria, encouraging collaboration and support.
+
+### 2.9 Pet Care Services Marketplace
+
+- The system shall offer a marketplace for pet care services such as grooming,
+training, pet sitting, and boarding, connecting Pet owners with trusted service
+providers and professionals.
+- Service providers shall have the ability to create and manage service listings,
+including descriptions, pricing, availability, and booking options.
+- Pet owners shall be able to search for and book pet care services based on
+location, service type, provider ratings, and availability, with integrated
+payment processing and scheduling features.
+
+
+
+### 2.10 Pet Behavior and Training Resources
+
+- The system shall offer a comprehensive library of pet behavior and training resources, 
+including guides, videos, and interactive tutorials developed by certified trainers and behaviorists.
+
+- Pet owners shall have access to training plans, behavior modification techniques, 
+and troubleshooting guides for common pet behavior issues such as aggression, anxiety, and obedience training.
+
+- The platform shall provide virtual training sessions, webinars, and live Q&A 
+sessions with experts to support Pet owners in training and managing their pets effectively.
+
+### 2.11 Donation Campaigns for Lost and Found Pets
+
+- Implement donation campaigns to support care for lost and found pets.
+- Allow users to donate funds directly through the platform.
+- Provide transparency on donation usage and impact on pet welfare.
+
+### 2.12 Sponsorship Programs for Lost Pets
+
+- Create sponsorship programs for caring for temporarily lost pets.
+
+- Allow individuals or businesses to sponsor food, shelter, and medical 
+care for specific pets (can be on a monthly basis).
+- Acknowledge sponsors and provide updates on sponsored pets' well-being.
+
+<br>
+
+## Interface Requirements
+
+### User Interface (UI)
 
 The UI should be intuitive, visually appealing, and responsive across
 various devices (desktop, tablet, mobile).
@@ -271,7 +354,7 @@ accessible and responsive to input.
 Consistent design elements (color scheme, typography, branding) should
 be maintained throughout the platform.
 
-## Registration and Authentication
+### Registration and Authentication
 
 The registration process should be streamlined and Pet Owner-friendly,
 guiding everyone through account creation with minimal friction.
@@ -282,7 +365,7 @@ should be seamless and secure.
 Clear error messages should be displayed for incorrect login attempts or
 registration errors.
 
-## Pet Adoption Marketplace
+### Pet Adoption Marketplace
 
 The pet listing creation interface should allow to input and manage
 detailed information about pets available for adoption, including text
@@ -294,7 +377,7 @@ everyone to refine their search based on various criteria.
 Communication tools (messaging, notifications) should be easily
 accessible for connecting potential adopters with pet providers.
 
-## Veterinary Services Directory
+### Veterinary Services Directory
 
 Service provider listings should be presented in a clear and organized
 manner, with essential information readily visible (e.g., clinic name,
@@ -306,7 +389,7 @@ based on location, specialty, and Pet Owner ratings.
 Pet Owner reviews and ratings should be prominently displayed alongside
 service provider listings, with options for submit reviews and ratings.
 
-## Community Forums
+### Community Forums
 
 Discussion threads should be organized by topic and easily accessible to
 pet owners and everyone part of the community.
@@ -318,7 +401,7 @@ content.
 Owners and community members profiles should display activity,
 contributions, and personal information in a Pet Owner-friendly format.
 
-## Educational Resource Center
+### Educational Resource Center
 
 Content should be categorized and searchable, allowing mostly pet owners
 to find educational resources relevant to their interests.
@@ -329,7 +412,7 @@ seamlessly into the platform for easy access.
 Owners and community members should have the ability to bookmark, save,
 and share educational resources for future reference.
 
-## Interactive Event Calendar
+### Interactive Event Calendar
 
 Event listings should be displayed in a calendar format, with detailed
 information accessible through event cards.
@@ -340,9 +423,9 @@ interested in attending events.
 Social media sharing tools should enable all to promote events and share
 them with their networks easily.
 
-# Performance Requirements
+## Performance Requirements
 
-## Response Time
+### Response Time
 
 The platform should load quickly, with response times optimized for both
 high-speed and slower internet connections.
@@ -350,7 +433,7 @@ high-speed and slower internet connections.
 Actions such as searching for pets, browsing service providers, and
 accessing educational resources should yield near-instantaneous results.
 
-## Scalability
+### Scalability
 
 The platform should be able to handle fluctuations in Pet Owner traffic,
 scaling resources dynamically to accommodate peak loads without
@@ -359,7 +442,7 @@ performance degradation.
 Database systems should be optimized to handle large volumes of data
 without slowing down.
 
-## Reliability
+### Reliability
 
 The platform should be highly available, with minimal downtime for
 maintenance or updates.
@@ -367,7 +450,7 @@ maintenance or updates.
 Redundancy measures should be in place to ensure continuity of service
 in case of hardware failures or other disruptions.
 
-## Security
+### Security
 
 Pet Owner's data should be encrypted and protected against unauthorized
 access or data breaches.
@@ -378,9 +461,9 @@ hijacking or unauthorized logins.
 Regular security audits and updates should be conducted to identify and
 address potential vulnerabilities.
 
-# Design Constraints
+## Design Constraints
 
-## Accessibility
+### Accessibility
 
 The platform should adhere to accessibility standards (e.g., WCAG) to
 ensure usability for owners and community member with disabilities.
@@ -388,7 +471,7 @@ ensure usability for owners and community member with disabilities.
 Design elements should accommodate screen readers, keyboard navigation,
 and other assistive technologies.
 
-## Cross-Browser Compatibility
+### Cross-Browser Compatibility
 
 The platform should be compatible with major web browsers (Chrome,
 Firefox, Safari, Edge) to ensure a consistent Pet Owner's experience
@@ -397,7 +480,7 @@ across different environments.
 Compatibility testing should be conducted regularly to identify and
 address browser-specific issues.
 
-## Third-Party Integrations
+### Third-Party Integrations
 
 Integration with third-party services (payment processors, mapping APIs,
 social media platforms) should be seamless and reliable.
@@ -405,13 +488,15 @@ social media platforms) should be seamless and reliable.
 API documentation and versioning should be followed to mitigate
 potential compatibility issues with external services.
 
-## Performance Optimization
+### Performance Optimization
 
 Frontend and backend code should be optimized for performance to
 minimize load times and improve overall responsiveness.
 
 Caching mechanisms and content delivery networks (CDNs) should be
 utilized to reduce latency and improve content delivery speed.
+
+<br><br>
 
 # Non-Functional Requirements
 
@@ -569,7 +654,8 @@ document will help ensure that the \"Paws and Claws Community Hub\"
 meets not only its functional requirements but also delivers a seamless,
 secure, and pet owner-centric experience while maintaining scalability,
 reliability, and regulatory compliance.
-  
+<br><br><br>  
+
 # Preliminary Schedule
 
 ## 1. Project Initiation and Planning Phase (Duration: 1 month)
@@ -688,6 +774,8 @@ reliability, and regulatory compliance.
     enhancements, optimizations, and new functionalities through agile
     development cycles and iterative releases.
 
+<br><br>
+
 # Preliminary Budget
 
 ## 1. Development Costs
@@ -747,6 +835,8 @@ reliability, and regulatory compliance.
     and stakeholder inputs. Regular monitoring and tracking of actual
     expenses against the budget can help manage costs effectively
     throughout the project lifecycle.
+
+<br>
 
 # Conclusion
 
